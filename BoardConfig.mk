@@ -66,3 +66,4 @@ BOARD_SUPPRESS_EMMC_WIPE := true
 BOARD_HAS_NO_REAL_SDCARD := true
 TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
 TW_EXCLUDE_SUPERSU := true
+TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
